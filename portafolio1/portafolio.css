@@ -1,0 +1,215 @@
+body{
+    background-color: rgb(186, 195, 233);
+}
+header {
+    display: flex;
+    background: rgb(89, 134, 218);
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+}
+.portada{
+    width: 100%;
+    height: 150px;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;   
+}
+.foto {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;   
+}
+.menu {
+    display: none;
+}
+nav {
+    width: 100%;
+    max-width: 500px;
+}
+nav .menu-inicial {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+nav .menu-inicial li{
+    padding: 10px 35px 0 0;
+}
+nav .menu-inicial a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #01040e;
+}
+nav .menu-inicial a:hover {
+    color: #0c0101;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+.foto {
+    width: 60px;
+    height: 60px;
+}
+.fondo {
+    width: 1000px;
+    height: 337px;
+    object-fit: cover;    
+}
+
+ .sobre-mim {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-right: 593px;
+}
+
+.icons {
+    display: flex;
+    margin-left: 570px;
+    margin-top: -25px;    
+}
+.iconn {
+    margin-right: 10px;
+}
+.iconn:hover {
+    background-color: #ffa60071;
+    border-radius: 100%;
+}
+.name span {
+    font: Bold 73px Segoe UI;
+   
+}
+.name {
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 150px;
+    color: rgb(67, 57, 202);
+    opacity: 3;
+}
+.estudo {
+    text-align: center;
+    margin-left: 150px;
+    padding: 0 0 35px 0;
+}
+
+.mhistoria{
+    display: inline-block;
+    font-style: italic;
+    font-weight: 100;
+   	text-align: right;
+	margin-left: 50%;
+    text-align: center;
+    color: rgb(66, 36, 201);
+    font-size: 40px;
+}
+#inicio{
+    background-color: rgb(171, 171, 199);
+}
+
+#inicio p{
+    font-style: italic;
+	width: 50%;
+	text-align: left;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;;
+    margin-left: 20%;
+}
+
+
+.yo{
+  margin-left: 20%;
+  width: 200px;
+  height: 200px;
+
+    
+
+}
+#inicio h2 {
+    display: inline-block;
+    color: rgb(66, 36, 201);
+    font-size: 40px;
+    margin-left: 50px;
+    
+
+}
+
+#formaçao {
+    margin-left: 1px;
+    background: rgba(186, 194, 233, 0.568) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 34px;
+    padding-bottom: -24px;
+}
+
+.imagem{
+    width: 300px;
+    height: 300px;
+    display: inline;
+}
+
+#formaçao li {
+    padding: 10px 10px 30px 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+#experiencia{
+    
+    padding: 40px 20px 20px 20px;
+}
+
+#experiencia li{
+    padding: 10px 10px 30px 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.musica{
+    padding: 10px 10px 30px 10px;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
+#contato{
+    padding: 10px 10px 30px 10px;
+    font-style: italic;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.formulario {
+    text-align: right;
+    margin-right: 300px;
+}
+input {
+   text-align: right;
+    background: rgb(159, 142, 187) 0% 0% no-repeat padding-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    opacity: 1;
+    margin-bottom: 10px;
+    display: inline;
+}
+
+.pe{
+
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(179, 179, 243);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer p{
+    padding: 45px 0 0 0;
+}
+
